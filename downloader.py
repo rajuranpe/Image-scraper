@@ -22,7 +22,7 @@ class Downloader():
         if n == 1:
             return url
         if n > 1:
-            urln = url.replace(firstPageNotation, multiPageNotationPre + str(n) + MultiPageNotationPost) #pageindex
+            urln = url.replace(firstPageNotation, multiPageNotation[0] + str(n) + MultiPageNotation[1]) #pageindex
             print(urln)
             return urln
 
