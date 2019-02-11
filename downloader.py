@@ -61,7 +61,7 @@ class Downloader():
                 existing_images = soup.findAll(siteTag, attrs=siteAttrs) # locate all elements on the page with tag
                 for image in existing_images:
                     try:
-                        tags = image["href"]
+                        tags = image[mainPageTag]
                         url1 = site.getUrl() + tags
                         page = requests.get(url1, timeout=5)
                         soppa = bs(page.text, 'html.parser')
