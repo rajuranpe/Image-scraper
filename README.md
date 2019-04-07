@@ -1,2 +1,2 @@
 # Image-scrapper
-A basic script to download images using beautiful soup library. Does not contain constructors or UI right now
+A basic script to download images from imageboards with multi-paged listing using beautiful soup library. Does not include specified sites or UI.
