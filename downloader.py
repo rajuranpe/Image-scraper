@@ -6,8 +6,8 @@ class Downloader():
 
     # add random lengthed delay to prevent high traffic and blocking
     def delayLoop(self):
-        for i in range(1, 5):
-            time.sleep(i)
+        i = random.randint(0, 9)
+        time.sleep(i)
 
 
     # download the page to do parsing
