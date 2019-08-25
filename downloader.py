@@ -1,4 +1,3 @@
-# writing images
 import requests, time
 from bs4 import BeautifulSoup as bs
 import random
